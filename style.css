@@ -1,7 +1,6 @@
 .container {
     width: 750px;
     margin: 0 auto;
-
 }
 
 .page-heading {
@@ -10,6 +9,7 @@
     font-style: italic;
     font-weight: 900;
     padding: 4px 12px;
+    text-transform: uppercase;
 }
 
 .recipe-link {
@@ -31,7 +31,7 @@
 
 .recipe-card {
     border: 1px solid grey;
-    border-radius: 6px;
+    border-radius: 0px;
     margin: 6px 0px;
     padding: 8px 12px;
     padding-left: 8px;
@@ -44,8 +44,8 @@
     width: auto;
     margin: 6px;
     margin-right: 24px;
-    border: 1px solid grey;
-    border-radius: 6px;
+    /* border: 1px solid grey; */
+    border-radius: 0px;
 }
 
 .recipe-preview {
@@ -53,10 +53,12 @@
 }
 
 .recipe-image {
-    width: 100%;
+    width: 80%;
     height: auto;
-    border-radius: 18px;
+    border-radius: 0%;
     border: solid 1px grey;
+    margin: 0 auto;
+    display: block;
 }
 
 .btn {
@@ -65,9 +67,9 @@
     box-sizing: border-box;
     display: inline-block;
     cursor: pointer;
-    font-size: 0.88rem;
+    font-size: 1.6rem;
     line-height: 1.5;
-    letter-spacing: 1x;
+    letter-spacing: 2px;
     background-color: blue;
     color: white;
     font-style: italic;
@@ -76,6 +78,7 @@
     margin: 24px 0px;
     width: 100%;
     text-align: center;
+    text-transform: uppercase;
 }
 
 
